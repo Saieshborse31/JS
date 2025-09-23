@@ -1,10 +1,10 @@
 let score = "Saiesh"; 
-console.log(typeof score); // string
+// console.log(typeof score); // string
 
 // conversion from string to number
 let valueInNumber = Number(score);
-console.log(valueInNumber); // NaN
-console.log(typeof valueInNumber); // number
+// console.log(valueInNumber); // NaN
+// console.log(typeof valueInNumber); // number
 
 /*
 Conversion rules:
@@ -19,12 +19,12 @@ undefined -> NaN
 */
 
 let isLoggedIn = 1; // 0, 1
-console.log(typeof isLoggedIn); // number
+// console.log(typeof isLoggedIn); // number
 
 // conversion from number to boolean
 let booleanIsLoggedIn = Boolean(isLoggedIn);
-console.log(booleanIsLoggedIn); // true
-console.log(typeof booleanIsLoggedIn); // boolean
+// console.log(booleanIsLoggedIn); // true
+// console.log(typeof booleanIsLoggedIn); // boolean
 
 /*
 Conversion rules:
@@ -38,13 +38,13 @@ undefined -> false
 */
 
 let someNumber = 3;
-console.log(someNumber); // 3
-console.log(typeof someNumber); // number
+// console.log(someNumber); // 3
+// console.log(typeof someNumber); // number
 
 // conversion from number to string
 let stringNumber = String(someNumber);
-console.log(stringNumber); // "3"
-console.log(typeof stringNumber); // string
+// console.log(stringNumber); // "3"
+// console.log(typeof stringNumber); // string
 
 /*
 Conversion rules:
@@ -54,3 +54,36 @@ undefined -> "undefined"
 true -> "true"
 false -> "false"
 */
+
+//****************  Operations  ****************
+
+let a = 3;
+let negA = -a; 
+
+// console.log(negA); 
+// console.log(typeof negA);\
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "Hello";
+let str2 = "World";
+
+// console.log(str1 + str2); 
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2");
+
+// console.log(+true);
+// console.log(+"");
+
+
+let gameCounter = 100;
+// console.log(gameCounter++);
+// console.log(++gameCounter);
