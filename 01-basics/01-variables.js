@@ -1,7 +1,6 @@
 let accountId = 1;
 var accountName = "Checking";
 const accountType = "Personal";
-
 accountCity = "New York";
 
 let accountState;
