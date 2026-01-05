@@ -46,11 +46,35 @@ const users = [
 ]
 
 users[1].email 
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));// he check karte ki he property tinderUser madhe ahe ki nahi.
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));// he check karte ki he property tinderUser madhe ahe ki nahi.
 
+
+//destrcucturing
+
+const course = {
+    coursename: "React JS",
+    price: "999",
+    courseInstructor: "Saiesh Borse"
+}
+// console.log(course.courseInstructor); //normal way
+
+const {courseInstructor : instructor} = course; //destructuring way
+// console.log(instructor);
+
+const {coursename, price} = course;
+// console.log(coursename);
+// console.log(price);
+
+
+// api kashya yetat means json format madhe
+// {
+//     "name": "Saiesh",
+//     "coursename": "React JS",
+//     "price": "free"
+// }
