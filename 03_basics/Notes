@@ -1,0 +1,23 @@
+**#Javascript Execution Context **
+
+-jevha pan apan js madhe konta code lihito tar 
+Global Execution Context banto jo apan 'this' keyword ne refer karto.
+*Ani browser cha GEC ha hamesha windows asto jo tyacha obj ahe.
+Node ani bakichyan cha vegla asto for e.g: bun,dino & etc.
+
+-jevha pan apan js madhe konta code lihito tar to hamesha 2 phase madhe execute hoto 
+-> 1) Memory Creation phase or Creation Phase
+    hya madhe fakta jaga allocate hote 
+-> 2) Execution phase
+    excution cha kaam sagla ithe hota like add, subtract and value assigning n all.
+
+## Types of Execution Context 
+1) Global Execution Context
+2) Functional Execution Context
+3) Eval Execution Context(Not so used)
+
+
+**#Call Stack **
+
+-basically works like a stack 
+-works on basic LIFO principle (last in first out)
