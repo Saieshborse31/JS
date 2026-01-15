@@ -1,5 +1,5 @@
 // Example of using 'for...of' loop with 'continue' statement
-// asha types che loops mainly arrays and strings sathi use kele jatat.
+// for of loop mainly arrays and strings sathi use kele jatat.
 
 let greeting = "Hello, World!";
 
@@ -14,9 +14,10 @@ for (const greet of greeting) {
 let fruits = ["Apple", "Banana", "Cherry", "Date", "Elderberry"];
 
 for (const fruit of fruits) {
-    if (fruit === "Cherry") {
-        break;
-    }
+    // if (fruit === "Cherry") {
+    //     break;
+    // }
+    // console.log(fruit);
     // console.log(`Fruit: ${fruit}`);
 }
 
@@ -45,13 +46,6 @@ const myObj = {
     game3: "Hockey"
 }
 
-for (const [key, value] of myObj) {
-    // console.log(key, ":- ", value); //TypeError: myObj is not iterable. Objects la apan ashya prakarane loop karu shakat nahi.Tyala ek vegla prakarane handle karava lagto.
-}
-
-
-
-
-
-
-
+// for (const [key, value] of myObj) {
+//     // console.log(key, ":- ", value); //TypeError: myObj is not iterable. Objects la apan ashya prakarane loop karu shakat nahi.Tyala ek vegla prakarane handle karava lagto.
+// }
