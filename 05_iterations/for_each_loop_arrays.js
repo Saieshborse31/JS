@@ -1,5 +1,6 @@
 //for each loop
 // for of loop mainly arrays sathi use kela jato.
+// for each loop ha call back functionsch use karto
 //ha one of the most used loop for array ahe.
 
 const coding = ["js","cpp","c","html","python","java"]
