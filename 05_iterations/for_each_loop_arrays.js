@@ -19,7 +19,8 @@ function printme(item){ //using another function
 // coding.forEach(printme);
 
 coding.forEach((item, index, array) => { 
-    // console.log(item, index, array);//parameter mdhe fakta basic item nahi gheun yet te tya sobat index ani array pan gheun yeta tar apan tya var jar kahi manipulation asel tar karu shakto.
+    // console.log(item, index, array);//parameter mdhe fakta basic item nahi gheun yet te tya sobat index ani array pan gheun yeta tar apan tya
+    //  var jar kahi manipulation asel tar karu shakto.
 });
  
 
