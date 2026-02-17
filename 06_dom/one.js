@@ -12,7 +12,7 @@
 
 
 // document.getElementById("title").innerHTML = "Change done by targeting ID"
-// document.getElementsByClassName("test1")[0].innerHTML = "Change done by targeting Class (ClassName)"
+// document.getElementsByClassName("test1")[0].innerHTML = "Change done by targeting Class (ClassName)" // for this to work you need to uncomment line no. 11
 
 //if both the above syntanxes are used then the second onw will overwrite the first one.
 
