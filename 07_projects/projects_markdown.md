@@ -71,6 +71,18 @@ form.addEventListener('submit', function (e) {
     }
   }
 });
+```
 
+# Project-3 solution
+
+
+``` javascript
+const clock = document.querySelector('#clock');
+
+setInterval(function () {
+  let now = new Date();
+  // console.log(now.toLocaleTimeString());
+  clock.innerHTML = now.toLocaleTimeString();
+}, 1000);
 
 ```
